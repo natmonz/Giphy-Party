@@ -1,0 +1,62 @@
+h1 {
+    font-size: 4rem;
+    font-family:  Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#giphy-logo {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#search-bar {
+    width: 15%; 
+}
+
+#gif-area {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+div {
+    display: inline-block;
+    padding: 10px;
+}
+
+#remove-gifs {
+    background-color: red;
+    color: white;
+    transition: background-color 0.5s
+}
+#remove-gifs:hover {
+    background-color: darkred;
+    color: white;
+}
+
+input, button {
+    margin: 10px;
+    border: none;
+    padding: 10px;
+    background-color: rgba(191, 191, 191, 0.275);
+    transition: background-color 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#search-btn:hover {
+    background-color: lightgreen;
+}
